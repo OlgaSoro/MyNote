@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WorkActivity"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TxtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Новая заметка"
+        android:textSize="16dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/newrecordet"
+        style="@style/TxtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Писать здесь"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/BtnStyle"
+            android:id="@+id/addrecordbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавить"/>
+        <Button
+            android:id="@+id/exitbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выйти"/>
+
+
+    </LinearLayout>
+
+<TextView
+        style="@style/TxtStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заметки"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recordrv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

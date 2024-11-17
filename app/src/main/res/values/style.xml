@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BtnStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">#082A14</item>
+        <item name="android:fontFamily">@font/dynapuff_condensed_medium</item>
+        <item name="android:textColor">#C3EF6F</item>
+        <item name="rippleColor">#000000</item>
+        <item name="android:textSize">16dp</item>
+        <item name="cornerRadius">40dp</item>
+    </style>
+
+    <style name="TxtStyle">
+        <item name="android:fontFamily">@font/dynapuff_condensed_medium</item>
+        <item name="android:textColor">#082A14</item>
+    </style>
+</resources>
