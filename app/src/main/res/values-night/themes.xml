@@ -3,6 +3,6 @@
     <style name="Base.Theme.MyNote" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:fontFamily">@font/dynapuff_condensed_medium</item>
         <item name="android:textColor">#1C240A</item>
-        <item name="android:background">CCF08F</item>
+        <item name="android:background">#CCF08F</item>
     </style>
 </resources>
